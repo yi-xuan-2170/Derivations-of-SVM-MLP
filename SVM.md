@@ -13,7 +13,6 @@ SVM（Support Vector Machine）是一種**監督式學習**演算法，主要用
 它的核心思想是：
 > 找出一條能夠最大化類別間距（margin）的超平面。
 
-![](https://upload.wikimedia.org/wikipedia/commons/2/2a/SVM_2D.svg)
 
 ---
 
