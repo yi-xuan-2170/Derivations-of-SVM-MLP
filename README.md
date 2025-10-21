@@ -1,6 +1,6 @@
 # ReadME
 
-> 作者：YiXuan
+> 作者：GenerateBY ChatGPT (YiXuan編輯)
 > 日期：2025-10-21  
 > 主題：SVM & MLP分類法 (Homework_1)
 
