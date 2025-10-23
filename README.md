@@ -9,14 +9,16 @@
 ## 一、SVM 的基本概念
 
 SVM（Support Vector Machine）是一種**監督式學習**演算法，主要用於**分類問題**。
+>> SVM 的目標是找到一條分隔線（或超平面）能將資料分成兩類，並且讓兩邊的距離（margin）最大化。
 
-### （1）分類問題的核心
-SVM 的目標是找到一條分隔線（或超平面）能將資料分成兩類，
-並且讓兩邊的距離（margin）最大化。
-
-### （2）超平面的數學表示
+### （1）幾何意義 → 用分隔線區分兩類
 對於二維資料，分隔線可表示為：
-![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/SVM-margin.jpg)
+![image](https://charlesliuyx.github.io/2017/09/19/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BASVM%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SVM-margin.jpg)
+### （2）最佳化問題 → 超平面的數學表示
+
+
+### （3）拉格朗日乘數法
+
 ---
 
 ## 二、MLP 基本概念
