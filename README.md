@@ -51,8 +51,14 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 
 ![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E5%96%AE%E4%BD%8D%E5%90%91%E9%87%8F2.jpg)
 
+圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
 
+我們知道
+- 若是 **正類**，則 𝑤 ⋅ 𝑥𝑖 + 𝑏 ≥ 1
+- 若是 **負類**，則 𝑤 ⋅ 𝑥𝑖 + 𝑏 ≤ 1
+- 所以這兩條不等式可以合併成一條統一的式子：**yi​(w ⋅ xi ​+ b) ≥ 1**
 
+  
 ### （3）拉格朗日乘數法→ 提煉w→ 帶回最佳化問題
 利用拉格朗日乘數法（Lagrange Multiplier）將限制條件帶入，求出最優解，使 margin 最大化。
 
