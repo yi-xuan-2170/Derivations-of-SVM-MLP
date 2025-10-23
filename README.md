@@ -15,11 +15,13 @@ SVM（Support Vector Machine）是一種**監督式學習**演算法，主要用
 ![image](https://charlesliuyx.github.io/2017/09/19/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BASVM%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SVM-margin.jpg)
 
 ### （2）最佳化問題→ 讓兩邊的距離（margin）最大化
-定義分隔線
+定義分隔線: 存在一個向量w，向量w會垂直於分隔線，任意向量\cdot向量w
 ![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E6%B1%BA%E7%AD%96%E8%A6%8F%E5%89%87.jpg)
 圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
 
-單位向量的公式是將一個非零向量除以其自身長度![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E5%96%AE%E4%BD%8D%E5%90%91%E9%87%8F2.jpg)
+單位向量的公式是將一個非零向量除以其自身長度，如下所示
+![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E5%96%AE%E4%BD%8D%E5%90%91%E9%87%8F2.jpg)
+
 ### （3）拉格朗日乘數法→ 提煉w→ 帶回最佳化問題
 
 ---
