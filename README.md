@@ -31,10 +31,6 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 
 圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
 
-- sign函數，f(x)=sign(w ⋅ x + b)
-
-![image](https://upload.wikimedia.org/wikipedia/commons/c/c0/Signum_function.png)
-
 - **正樣本（Positive Sample）**  
   若代入模型後 w ⋅ x + b > 1 ，  
   代表資料點位於「正邊界線」之外。
@@ -46,6 +42,10 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 - **支撐向量（Support Vectors）**  
 而在兩條邊界上的點，決定了**正負邊界的位置，也就是 Support Vectors（支撐向量）**整個分隔面的形狀。
 ![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E6%AD%A3%E8%B2%A0%E9%82%8A%E7%95%8C.jpg)
+
+這就是 - sign函數，f(x)=sign(w ⋅ x + b)
+
+![image](https://upload.wikimedia.org/wikipedia/commons/c/c0/Signum_function.png)
 
 單位向量的公式是將一個非零向量除以其自身長度，如下所示
 
