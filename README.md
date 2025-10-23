@@ -75,12 +75,16 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 
 ### （4）Method of Lagrange multiplier_拉格朗日乘數法
 >利用拉格朗日乘數法（Lagrange Multiplier）將限制條件帶入，求出最優解，使 margin 最大化。
+>因為存在 w ⋅ x + b > 1 的約束，並在對偶形式中只依賴內積xi xj，也為後續引入 Kernel 鋪路。
 
 ![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/Lagrange.jpg)  
 
 圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
 
 ### （5）Kernel 核函數
+>用來處理非線性分類。
+>如果數據不是線性可分的（例如 XOR 問題）， Kernel 可以將原始特徵空間映射到高維空間，使其變得線性可分。
+>常見像是 線性Kernel、Gaussian radial basis function kernel、polynomial kernel
 ---
 
 ## 二、MLP 基本概念
