@@ -12,7 +12,9 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 >> SVM 的目標是找到一條分隔線（或超平面）能將資料分成兩類，並且讓兩邊的距離（margin）最大化。
 
 ### （1）幾何意義→ 用分隔線區分兩類
+
 嘗試在資料中找出一條能清楚分隔兩個類別的邊界，這樣的邊界稱為「最佳化超平面」
+
 ![image](https://charlesliuyx.github.io/2017/09/19/%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BASVM%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/SVM-margin.jpg)
 
 ### （2）最佳化問題→ 讓兩邊的距離（margin）最大化
