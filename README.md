@@ -1,6 +1,6 @@
-# ReadME
+# SVM & MLP分類法 (Homework_1)
 
-> 作者：GenerateBY ChatGPT (YiXuan編輯)
+> 作者：YiXuan (ChatGPT協助完成.md)
 > 日期：2025-10-21  
 > 主題：SVM & MLP分類法 (Homework_1)
 
@@ -10,10 +10,13 @@
 
 SVM（Support Vector Machine）是一種**監督式學習**演算法，主要用於**分類問題**。
 
-它的核心思想是：
-> 找出一條能夠最大化類別間距（margin）的超平面。
+### （1）分類問題的核心
+SVM 的目標是找到一條分隔線（或超平面）能將資料分成兩類，
+並且讓兩邊的距離（margin）最大化。
 
-
+### （2）超平面的數學表示
+對於二維資料，分隔線可表示為：
+![image]([picture or gif url](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/SVM-margin.jpg))
 ---
 
 ## 二、MLP 基本概念
