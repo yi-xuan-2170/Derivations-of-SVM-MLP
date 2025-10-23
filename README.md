@@ -16,7 +16,7 @@ SVM 的目標是找到一條分隔線（或超平面）能將資料分成兩類�
 
 ### （2）超平面的數學表示
 對於二維資料，分隔線可表示為：
-![image]([picture or gif url](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/SVM-margin.jpg))
+![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/SVM-margin.jpg)
 ---
 
 ## 二、MLP 基本概念
