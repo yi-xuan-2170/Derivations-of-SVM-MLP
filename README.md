@@ -26,6 +26,7 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 sign函數，f(x)=sign(w ⋅ x + b)
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/c/c0/Signum_function.png)
+
 帶入正樣本，
 
 單位向量的公式是將一個非零向量除以其自身長度，如下所示
@@ -33,6 +34,7 @@ sign函數，f(x)=sign(w ⋅ x + b)
 ![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E5%96%AE%E4%BD%8D%E5%90%91%E9%87%8F2.jpg)
 
 ### （3）拉格朗日乘數法→ 提煉w→ 帶回最佳化問題
+利用拉格朗日乘數法（Lagrange Multiplier）將限制條件帶入，求出最優解，使 margin 最大化。
 
 ---
 
