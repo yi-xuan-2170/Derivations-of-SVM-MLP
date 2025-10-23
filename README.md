@@ -73,9 +73,14 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
 
 
-### （4）拉格朗日乘數法→ 提煉w→ 帶回最佳化問題
-利用拉格朗日乘數法（Lagrange Multiplier）將限制條件帶入，求出最優解，使 margin 最大化。
+### （4）Method of Lagrange multiplier_拉格朗日乘數法
+>利用拉格朗日乘數法（Lagrange Multiplier）將限制條件帶入，求出最優解，使 margin 最大化。
 
+![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/Lagrange.jpg)  
+
+圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
+
+### （5）Kernel 核函數
 ---
 
 ## 二、MLP 基本概念
