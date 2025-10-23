@@ -31,7 +31,7 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 
 圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
 
-sign函數，f(x)=sign(w ⋅ x + b)
+- sign函數，f(x)=sign(w ⋅ x + b)
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/c/c0/Signum_function.png)
 
