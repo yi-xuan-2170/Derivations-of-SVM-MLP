@@ -43,23 +43,31 @@ SVM（Support Vector Machine）是一種 監督式學習（Supervised Learning�
 而在兩條邊界上的點，決定了**正負邊界的位置，也就是 Support Vectors（支撐向量）**整個分隔面的形狀。
 ![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E6%AD%A3%E8%B2%A0%E9%82%8A%E7%95%8C.jpg)
 
-這就是 - sign函數，f(x)=sign(w ⋅ x + b)
+圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
+
+正負邊界就像是 
+- sign函數，f(x)=sign(w ⋅ x + b)
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/c/c0/Signum_function.png)
-
-單位向量的公式是將一個非零向量除以其自身長度，如下所示
-
-![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E5%96%AE%E4%BD%8D%E5%90%91%E9%87%8F2.jpg)
-
-圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
 
 我們知道
 - 若是 **正類**，則 𝑤 ⋅ 𝑥𝑖 + 𝑏 ≥ 1
 - 若是 **負類**，則 𝑤 ⋅ 𝑥𝑖 + 𝑏 ≤ 1
 - 所以這兩條不等式可以合併成一條統一的式子：**yi​(w ⋅ xi ​+ b) ≥ 1**
 
-  
-### （3）拉格朗日乘數法→ 提煉w→ 帶回最佳化問題
+單位向量的公式是將一個非零向量除以其自身長度，如下所示
+
+![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E5%96%AE%E4%BD%8D%E5%90%91%E9%87%8F2.jpg)  
+
+### （3）margin最大化
+
+進入主題，區分兩個類別最清楚的方式就是**讓正負邊界的間距越大越好**
+![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E6%9C%80%E5%A4%A7margin.jpg)  
+
+圖片截於 https://www.youtube.com/watch?v=_PwhiWxHK8o
+
+
+### （4）拉格朗日乘數法→ 提煉w→ 帶回最佳化問題
 利用拉格朗日乘數法（Lagrange Multiplier）將限制條件帶入，求出最優解，使 margin 最大化。
 
 ---
