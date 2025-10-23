@@ -36,18 +36,16 @@ sign函數，f(x)=sign(w ⋅ x + b)
 ![image](https://upload.wikimedia.org/wikipedia/commons/c/c0/Signum_function.png)
 
 - **正樣本（Positive Sample）**  
-  若代入模型後 \( w \cdot x + b > 1 \)，  
+  若代入模型後 w ⋅ x + b > 1 ，  
   代表資料點位於「正邊界線」之外。
 
 - **負樣本（Negative Sample）**  
-  若代入模型後 \( w \cdot x + b < -1 \)，  
+  若代入模型後 w ⋅ x + b < -1 ，  
   代表資料點位於「負邊界線」之外。
 
 - **支撐向量（Support Vectors）**  
-  若資料點滿足 \( w \cdot x + b = \pm 1 \)，  
-  表示它正好位於邊界上。  
-  這些點就是 **支撐向量**，  
-  它們決定了整個分隔面的形狀與位置。
+而在兩條邊界上的點，決定了**正負邊界的位置，也就是 Support Vectors（支撐向量）**整個分隔面的形狀。
+![image](https://github.com/yi-xuan-2170/Derivations-of-SVM-MLP/blob/main/%E6%AD%A3%E8%B2%A0%E9%82%8A%E7%95%8C.jpg)
 
 單位向量的公式是將一個非零向量除以其自身長度，如下所示
 
